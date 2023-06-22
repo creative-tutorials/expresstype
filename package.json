@@ -1,0 +1,39 @@
+{
+  "name": "api.betterjsondb",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/index.js\""
+  },
+  "keywords": [],
+  "author": "creative-tutorials",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.25.0",
+    "@types/express-serve-static-core": "^4.17.35",
+    "axios": "^1.4.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "mongodb": "^5.6.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/body-parser": "^1.19.2",
+    "@types/cors": "^2.8.13",
+    "@types/express": "^4.17.17",
+    "@types/node": "^20.3.1",
+    "@types/qs": "^6.9.7",
+    "@types/uuid": "^9.0.2",
+    "concurrently": "^8.2.0",
+    "nodemon": "^2.0.22",
+    "typescript": "^5.1.3"
+  }
+}
