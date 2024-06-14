@@ -1,3 +1,2 @@
-# Guide
-
-[Watch here](https://scribehow.com/embed/How_to_use_the_express-ts_package__EY1aom_KSNmXPlXe3kksPQ)
+> [!WARNING]  
+> This repo is archived and no longer maintained, I suggest using [expressType.v2](github.com/creative-tutorials/expresstype.v2) instead
